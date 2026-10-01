@@ -1,0 +1,4 @@
+google-adk==2.9.2
+google-genai
+httpx
+python-dotenv

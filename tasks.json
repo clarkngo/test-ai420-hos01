@@ -1,0 +1,27 @@
+[
+  {
+    "id": "space-needle-iphone",
+    "question": "How many years before the first iPhone was released was the Space Needle completed?",
+    "expected": "45 (Space Needle completed 1962; first iPhone released 2007)"
+  },
+  {
+    "id": "rainier-fuji",
+    "question": "Which is taller, Mount Rainier or Mount Fuji, and by how many meters?",
+    "expected": "Mount Rainier, by about 615 m (4,391 m vs 3,776 m per Wikipedia's intros)"
+  },
+  {
+    "id": "seattle-cityu",
+    "question": "How many years after Seattle was founded was City University of Seattle founded?",
+    "expected": "122 (Seattle founded 1851; City University of Seattle founded 1973)"
+  },
+  {
+    "id": "columbia-snake",
+    "question": "The Columbia River is how many times longer than its largest tributary, the Snake River? Round to one decimal place.",
+    "expected": "About 1.1 times (Columbia ~2,000 km; Snake ~1,740 km per Wikipedia's intros). Check the arithmetic matches the figures the agent cites."
+  },
+  {
+    "id": "boeing-microsoft",
+    "question": "How many years older is Boeing than Microsoft, based on each company's founding year?",
+    "expected": "59 (Boeing founded 1916; Microsoft founded 1975)"
+  }
+]
