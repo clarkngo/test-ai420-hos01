@@ -1,0 +1,14 @@
+{
+    "name": "AI 420 — HOS 1",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+    "postCreateCommand": "cp -n .env.example .env; pip install -r requirements.txt",
+    "forwardPorts": [8000],
+    "portsAttributes": {
+        "8000": { "label": "ADK Web UI (adk web)", "onAutoForward": "openPreview" }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-python.python"]
+        }
+    }
+}
