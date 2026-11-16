@@ -4,7 +4,7 @@
     "postCreateCommand": "cp -n .env.example .env; pip install -r requirements.txt",
     "forwardPorts": [8000],
     "portsAttributes": {
-        "8000": { "label": "ADK Web UI (adk web)", "onAutoForward": "openPreview" }
+        "8000": { "label": "ADK Web UI (adk web --allow_origins \"*\")", "onAutoForward": "openPreview" }
     },
     "customizations": {
         "vscode": {
